@@ -38,9 +38,7 @@ const Customer = () => {
 
                         <div className={styles.user_input_box}>
                             <label htmlFor="email">Email</label>
-                            <input type="email"
-                                   id="email"
-                                   name="email"
+                            <input 
                                    {...register('email',
                                        {required: true,
                                            message: 'please enter an email address' })}

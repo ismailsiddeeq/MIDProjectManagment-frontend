@@ -55,6 +55,15 @@ const NavBar = () => {
                
 
             </ul>
+
+            
+            </li>
+
+            <li>
+            <Link href="/employeeView">View Tasks</Link>
+            
+
+            
             </li>
           </ul>
         </nav>

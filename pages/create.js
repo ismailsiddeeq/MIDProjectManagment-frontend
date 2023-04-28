@@ -38,9 +38,7 @@ const Create = () => {
 
                         <div className={styles.user_input_box}>
                             <label htmlFor="email">Task Details</label>
-                            <input type="email"
-                                   id="email"
-                                   name="email"
+                            <input 
                                    {...register('email',
                                        {required: true,
                                            message: 'please enter details on task' })}

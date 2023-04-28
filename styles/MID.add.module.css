@@ -8,6 +8,7 @@
     margin: 10% 28px;
     border-radius: 10px;
     box-shadow: inset -2px 2px 2px rgb(12, 12, 12);
+    align-items: center;
 }
 
 .text{
